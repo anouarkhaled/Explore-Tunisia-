@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(fond1.avif);
+    font-size:x-large;
+
+}
+header{
+    background-color:;
+    color:white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}
+section{
+
+    text-align: center ;
+
+}
+table{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+h2{
+    color:white;
+}
+nav {
+    cursor: pointer;
+    color:white;
+}
+a{
+ font-size: x-large;
+    color:white;
+    padding: 0 20px;
+}
+button{
+    cursor: pointer;
+    font-size:medium;
+    border-radius: 5px;
+}
+.nav {
+    text-align: center;
+}
+.table{
+   text-align: center;
+
+
+
+}
