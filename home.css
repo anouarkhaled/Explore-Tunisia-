@@ -1,39 +1,65 @@
 body{
-    background-color: white;
+    background-color: #D4D3DC;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image:url(fond1.avif);
+    background-image:url(coavif);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size:x-large;
+    margin: 0;
+    padding:0;
+}
+#head{
+    color:rgb(207, 79, 19);
+    text-align: center ;
+    padding: 50px;
+    margin-bottom: 0px;
+    background-image: url(tunisia\ .avif);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+
 
 }
-.head{
-    color:  rgb(183, 198, 22);
-    text-align: center ;
-    background-color: black;
-    padding: 10px;
-    margin-top: 0;
-}
 .Welcome{
-    color: white;
+    color:black;
 }
 .intro{
-    color:white;
+    color:black;
 }
-.nav {
-    background-color:;
-    color:white;
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
+.navbar {
+    width: 85%;
+    margin:auto ;
+    display: flex;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+#nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    background-position: center;
+ 
+
+ }
     
+#nav li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-position: center;
 }
-a{
-    font-size: x-large;
-       color:white;
-       padding: 0 20px;
-   }
+  
    footer {
     background-color: black;
-    color: white;
+    color:white;
     padding: 10px;
     text-align: center;
 }

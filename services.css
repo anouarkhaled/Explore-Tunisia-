@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(fond1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:x-large;
+
+}
+.head{
+    text-align: center;
+    color: rgb(179, 207, 19);
+}
+
+.nav {
+    
+    color:rgb(23, 19, 19);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}
+a{
+    font-size: x-large;
+       color:rgb(25, 22, 22);
+       padding: 0 20px;
+   }
+#s{
+    color:rgb(25, 21, 21)
+   }
+   .destination{
+    color:brown;
+   }
+   footer {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}

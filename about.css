@@ -1,3 +1,37 @@
 body{
-    background-image:url(fond1.avif);
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(tunisia\ .avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:x-large;
+    
+
+}
+.about{
+    color:white;
+}
+header{
+    background-color:;
+    color:rgb(179, 207, 19);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}
+.nav {
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+a{
+    font-size: x-large;
+       color:white;
+       padding: 0 20px;
+   }
+   footer {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: center;
 }

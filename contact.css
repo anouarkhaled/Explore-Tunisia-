@@ -1,13 +1,16 @@
 body{
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image:url(fond1.avif);
-    font-size:x-large;
-
+    background-image:url(cont.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+    
 }
 header{
-    background-color:;
-    color:white;
+    color:rgb(179, 207, 19);
     padding: 10px;
     margin: 0px;
     text-align: center;
@@ -26,14 +29,12 @@ table{
 h2{
     color:white;
 }
-nav {
-    cursor: pointer;
-    color:white;
-}
+
 a{
  font-size: x-large;
     color:white;
     padding: 0 20px;
+    opacity: 0.8;
 }
 button{
     cursor: pointer;
@@ -42,6 +43,7 @@ button{
 }
 .nav {
     text-align: center;
+    cursor: pointer;
 }
 .table{
    text-align: center;
@@ -50,8 +52,10 @@ button{
 
 }
 footer {
+    margin-bottom: 0;
     background-color: black;
     color: white;
     padding: 10px;
     text-align: center;
+    margin-top: 20%;
 }
