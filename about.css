@@ -1,36 +1,94 @@
-body{
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image:url(tunisia\ .avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size:x-large;
-    
 
-}
-.about{
-    color:white;
-}
-header{
-    background-color:;
-    color:rgb(179, 207, 19);
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
+.nav {
+    margin-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    height: 12vh;
+    align-items: center;
     
 }
-.nav {
+.navbar{
+    background-color:rgba(52, 152, 219, 0.6); ;
+    color:rgb(23, 19, 19);
+    padding: 10px;
+    margin: 0;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
-    cursor: pointer;
-    color: white;
+    z-index: 1000;
+    position: fixed;
+    height: 1000;
+    top: 0;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0;
+    align-items: center;
 }
-a{
-    font-size: x-large;
-       color:white;
-       padding: 0 20px;
-   }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(./3762474_1955516.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 700;
+    margin: 0;
+}
+.footer {
+    background-color: #3498db;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.b{
+    text-decoration: none;
+}
+.bb{
+    color: #D23963;
+    text-decoration: none;
+}
+.bb:hover{
+    background-color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: 100%;
+    color:  #EF6331;
+}
+.bb1{
+    background-color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: 100%;
+    color:  #EF6331;
+}
+.logo{
+    width: 40px;
+}
+.logo-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+.title{
+    font-size:x-large;
+    margin: 0;
+    color: #EF6331;
+}
+
+.about{
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+   
    footer {
-    background-color: black;
+    background-color: #3498db;
     color:white;
     padding: 10px;
     text-align: center;
