@@ -39,13 +39,14 @@ body {
     color:white;
     padding: 10px;
     text-align: center;
+    width: 100%;
     margin-bottom: 0;
 }
 .b{
     text-decoration: none;
 }
 .bb{
-    color:black;
+    color: #D23963;
     text-decoration: none;
 }
 .bb:hover{
@@ -106,4 +107,13 @@ body {
 
 .button:hover {
     background-color: #45a049;
+}
+#Ex{
+    color: #952681;
+}
+#plore{
+    color: #D23963;
+}
+#Tunisia{
+    color: #E94155;
 }

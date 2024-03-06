@@ -11,8 +11,6 @@
 .navbar{
     background-color:rgba(52, 152, 219, 0.6); ;
     color:rgb(23, 19, 19);
-    padding: 10px;
-    margin: 0;
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -22,7 +20,6 @@
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 0;
     align-items: center;
 }
 
@@ -51,8 +48,8 @@ body {
 }
 .bb:hover{
     background-color: white;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color:  #EF6331;
 }
 .bb1{

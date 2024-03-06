@@ -11,8 +11,6 @@
 .navbar{
     background-color:rgba(52, 152, 219, 0.6); ;
     color:rgb(23, 19, 19);
-    padding: 10px;
-    margin: 0;
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -22,7 +20,6 @@
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 0;
     height: 12vh;
     align-items: center;
 }
@@ -99,4 +96,13 @@ footer {
     padding: 10px;
     text-align: center;
     margin-top: 20%;
+}
+#Ex{
+    color: #952681;
+}
+#plore{
+    color: #D23963;
+}
+#Tunisia{
+    color: #E94155;
 }

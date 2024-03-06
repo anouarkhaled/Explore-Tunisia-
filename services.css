@@ -18,10 +18,7 @@ body {
 }
 .navbar{
     background-color:rgba(52, 152, 219, 0.6); 
-    margin: 0;
-    padding: 10px ;
     font-family: "Protest Riot", sans-serif;
-    margin: 0;
     font-weight: 400;
     font-style: normal;
     text-align: center;  
@@ -30,13 +27,13 @@ body {
     width: 100vw;
     display: grid ;
     grid-template-columns: 1fr 2fr;
-    padding: 0;
     align-items: center;
 }
 .footer {
     background-color: #3498db;
     color:white;
     padding: 10px;
+    width: 100%;
     text-align: center;
     margin-bottom: 0;
 }
@@ -92,4 +89,13 @@ body {
 }
 .service p {
     color: #555;
+}
+#Ex{
+    color: #952681;
+}
+#plore{
+    color: #D23963;
+}
+#Tunisia{
+    color: #E94155;
 }
