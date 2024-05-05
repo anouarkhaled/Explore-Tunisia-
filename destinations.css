@@ -1,22 +1,24 @@
+
 .nav {
     margin-right: 5vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
     padding: 0;
     height: 12vh;
     align-items: center;
     
 }
 .navbar{
-    background-color:rgba(52, 152, 219, 0.6); 
-    color:rgb(23, 19, 19);
+    background-color:#222; 
     padding: 10px;
     margin: 0;
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    z-index: 1000;
     position: fixed;
+    height: 1000;
     top: 0;
     width: 100vw;
     display: grid;
@@ -24,24 +26,32 @@
     padding: 0;
     align-items: center;
 }
+#reservation{
+    color: #E94155;
+    position: absolute;
+    margin: 30%;
+}
+#myvideo{
+    position: fixed;
+    right: 0;
+    margin-left:0;
+    bottom: 0;
+    width: 100%;
+    height:auto;
+   
+    z-index: -100;
+  }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    background-image: url(./3762474_1955516.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-weight: 700;
     margin: 0;
 }
-.footer {
-    background-color: #3498db;
-    color:white;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 0;
-}
+
+
 .b{
     text-decoration: none;
 }
@@ -50,12 +60,17 @@ body {
     text-decoration: none;
 }
 .bb:hover{
-    background-color: white;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    background-color: #952681;
+    padding-top: 35px;
+    padding-bottom: 35px;
     color:  #EF6331;
 }
-
+.bb1{
+    background-color:#952681;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color:  #EF6331;
+}
 
 .logo{
     width: 40px;
@@ -85,6 +100,10 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+.service.active::after{
+    transform:translate(20);
+
 }
 .service h2 {
     color: #2c3e50;
@@ -116,4 +135,16 @@ body {
 }
 #Tunisia{
     color: #E94155;
+
+}
+#footertext{
+    color: #f4f4f4;
+    text-align: center;
+}
+#footer {
+    position: absolute;
+    background-color:#222;
+    padding: 10px;
+    width: 100%;
+   
 }

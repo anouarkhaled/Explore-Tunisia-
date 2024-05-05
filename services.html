@@ -12,7 +12,7 @@
     <div class="navbar">
         <div class="logo-title"> 
             <div>
-                <img src="guide-book_11589660 (1).png" alt=""  class="logo">
+                <img src="images/guide-book_11589660 (1).png" alt=""  class="logo">
             </div>
             <div >
                 <p class="title"><span id="Ex">Exp</span><span id="plore">lore </span><span id="Tunisia">Tunisia</span> </p>    
@@ -22,10 +22,15 @@
         <div class="nav">
             <a class="b" href="index.html"><div class="bb" >Home</div></a>
             <a class="b" href="contact.html"><div class="bb" >Contact</div></a>
-            <a class="b" href="about.html"><div class="bb" >About</div></a>
-           <a class="b" href="services.html"> <div class="bb1" >Services</div></a>
+           <a class="b" href="services.html"> <div class="bb1" >Services</div></a> 
+           <a class="b" href="reserver.php"><div class="bb" >Réserver Maintenant</div></a>
+           
         </div>
     </div>
+    <div>
+        <video autoplay muted loop id="myvideo">
+            <source src="Discover Tunisia.mp4" type="video/mp4">
+          </video></div>
         <ul class="service-container">
             <li class="service">
                 <h2>Guided Tours</h2>
@@ -57,8 +62,17 @@
                 <p>Efficiently navigate the destination with our assistance in coordinating transportation.</p>
             </li></ul>
     </div>
-    <div class="footer">
-        <p>&copy; 2024 Explore Tunisia.All rights reserved. </p> 
+    <div id="footer">
+        <p id="footertext">&copy; 2024 Explore Tunisia.All rights reserved. </p> 
     </div>
+    <script>
+        var service = document.querySelector('.service');
+        var servicecontainer =document.querySelector('.service-container');
+        service.onclick =function(){
+            service.classList.toggle('active');
+        };
+    
+    
+    </script>
 </body>
 </html>

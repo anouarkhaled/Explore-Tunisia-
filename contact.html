@@ -23,30 +23,65 @@
         <div class="nav">
             <a class="b" href="index.html"><div class="bb" >Home</div></a>
             <a class="b" href="contact.html"><div class="bb1" >Contact</div></a>
-            <a class="b" href="about.html"><div class="bb" >About</div></a>
-           <a class="b" href="services.html"> <div class="bb" >Services</div></a>
+            <a class="b" href="services.html"> <div class="bb" >Services</div></a>
+           <a class="b" href="reserver.html"><div class="bb" >Réserver Maintenant </div></a>
+           
+        </div>
     </div>
-    </div>
+    <div>
+    <video autoplay muted loop id="myvideo">
+        <source src="Discover Tunisia.mp4" type="video/mp4">
+      </video></div>
         <br>
         <br>
-         <form method="post">
-                <fieldset > <legend><h2>Contact Us</h2></legend><table class="table">
-                    <tr><td><label for="name">Name:</label></td>
-                        <td><input type="text"   name="name" required placeholder="name"></td></tr>
-                        <tr> <td><label for="email">Email:</label></td>
-                            <td> <input type="email"  name="email" required placeholder=".....@gmail.com" ></td></tr>
-                        <tr><td><label for="tel">phone number:</label></td>
-                            <td><input type="tel"   name="tel" required placeholder=""></td></tr>
-                    <tr><td><label for="Country" > Country:</label></td>
-                       <td> <input type="text" name="Country" required > </td> </tr> 
-                        <tr> <td><label for="commentaire ">comments:</label></td>
-                            <td><textarea name="com" cols="20" rows="5" ></textarea>  </td></tr>
-                        
-                    <tr> <td><button type="submit">Submit</button></td></tr>
-                        <tr> <td> <button type="reset">Reset</button> </td>    </tr>
-                    </table>
+        
+         <form   method="post">
+                <fieldset class="form"> <legend><h2>Contact Us</h2></legend>
+                <div id="connectBtn">
+                   <h2> Welcome to our site </h2>
+                    <button onclick="showLoginForm()"class="btn">Connect</button>
+                    <button onclick="showInscriptionForm()"class="btn">Subscribe</button>
+                </div>
+                    <div id="inscriptionForm" style="display: none;" >
+                     <table >
+                 
+                       <tr> <td><label for="login_username"style="font-size: x-large;">Username:</label></td>
+                          <td> <input type="text" id="login_username" name="login_username"class="tdstyle" required > </td></tr> 
+                             <tr><td><label for="name" style="font-size: x-large;">Name:</label></td>
+                        <td ><input class="tdstyle" type="text"   name="name"id='name' required placeholder="name"></td></tr>
+                        <tr> <td><label for="email"style="font-size: x-large;" >Email:</label></td>
+                            <td > <input class="tdstyle" type="email"  name="email" id="email" required placeholder=".....@gmail.com" ></td></tr>
+                        <tr ><td><label for="tel"style="font-size: x-large;">phone number:</label></td>
+                            <td ><input class="tdstyle" type="tel"   name="tel" id="tel" required placeholder=""></td></tr> 
+                                <tr><td><label for="Country" style="font-size: x-large;" > Country:</label></td>
+                       <td > <input class="tdstyle" type="text" name="Country" required > </td> </tr>
+                        <tr><td><label for="password"style="font-size: x-large;">Password:</label><br></td>
+                            <td>   <input type="password" id="password" name="password" required ></td></tr>
+                            <tr><td><label for="confirm_password"style="font-size: x-large;">Confirm Password:</label></td>
+                            <td> <input type="password" id="confirm_password" name="confirm_password" required></td></tr>
+                
+                    <tr> <td class="button1"><button type="submit" class="btn" id="submit">Submit</button>   
+                               <button type="reset" class="btn">Reset</button> </td>    </tr>
+                   
+                     </table>
+                 </div>
+                     <div id="connectionForm" style="display: none;" class="form">
+                        <table>
+                 
+                            <tr> <td><label for="login_username" style="font-size: x-large;" >Username:</label></td>
+                               <td> <input type="text" id="login_username" name="login_username" required class="tdstyle"></td></tr> 
+                             <tr><td><label for="password" >Password:</label><br></td>
+                               <td>   <input type="password" id="password" name="password" required ></td></tr>
+                               <tr> <td class="button1"><button type="submit" class="btn"id="submit">Submit</button>   
+                                <button type="reset" class="btn">Reset</button> </td>    </tr>
+                            
+                        </table>
                 </fieldset>
+
             </form>
-      <footer class="footer"><p>&copy; 2024 Explore Tunisia.All rights reserved. </p> </footer>
+           
+      <footer id="footer"><p id="footertext">&copy; 2024 Explore Tunisia.All rights reserved. </p> </footer>
+      <script src="contact.js">
+      </script>
 </body>
 </html>

@@ -1,15 +1,27 @@
-
+*{
+    box-sizing: border-box;
+}
 .nav {
     margin-right: 5vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
     padding: 0;
     height: 12vh;
     align-items: center;
     
 }
+#myvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin-bottom: 0;
+   
+    z-index: -100;
+  }
 .navbar{
-    background-color:rgba(52, 152, 219, 0.6); ;
+    background-color:#222; 
     color:rgb(23, 19, 19);
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
@@ -26,19 +38,22 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    background-image: url(./3762474_1955516.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-weight: 700;
     margin: 0;
 }
-.footer {
-    background-color: #3498db;
-    color:white;
-    padding: 10px;
+#footertext{
+    color: #f4f4f4;
     text-align: center;
-    margin-bottom: 0;
+}
+#footer {
+    position: absolute;
+    background-color:#222;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+
 }
 .b{
     text-decoration: none;
@@ -48,15 +63,15 @@ body {
     text-decoration: none;
 }
 .bb:hover{
-    background-color: white;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    background-color: #952681;
+    padding-top: 35px;
+    padding-bottom: 35px;
     color:  #EF6331;
 }
 .bb1{
-    background-color: white;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    background-color:#952681;
+    padding-top: 35px;
+    padding-bottom: 35px;
     color:  #EF6331;
 }
 .logo{
@@ -73,29 +88,52 @@ body {
     color: #EF6331;
 }
 
-form{
-    width: 1000px;
-    margin: 20px auto;
+.form{
+    margin: 100px 60px;
+    padding: 50px;
+    margin:  100px;
     background-color:rgba(255,255,255,0.2);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.tdstyle{
+width:600px;
+height: 40px;
+border-color:black;
+border-radius: 7px;
+padding: 0 10px;
+color: black;
+}
+.btn{
+  background: #5E5DF0;
+  border-radius: 100px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 18px;
+  border: 0;
+}
+.button1{
+    position:absolute;
+    right: 20px;
+    bottom: 10px;
 }
 
-
-button{
-    cursor: pointer;
-    font-size:medium;
-    border-radius: 5px;
-}
-
-footer {
+.footer {
     margin-bottom: 0;
     background-color:   #3498db;
     color: white;
     padding: 10px;
     text-align: center;
-    margin-top: 20%;
+    position:absolute;
+    width: 100%;
+    bottom: 0;
 }
 #Ex{
     color: #952681;
