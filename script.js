@@ -16,6 +16,6 @@ document.getElementById('reservationForm').addEventListener('submit', function(e
     console.log('Number of people:', people);
     
     // Optionally, you can display a confirmation message to the user
-    alert('Réservation réussie !');
+    //alert('Réservation réussie !');
 });
 

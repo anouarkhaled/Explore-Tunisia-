@@ -2,11 +2,12 @@
 <?php
 try
 {
-$db =  new PDO('mysql:host=localhost;dbname=mybase;charset=utf8mb4_general_ci', 'root', '');
+$db =  new PDO('mysql:host=localhost;dbname=mybase;charset=UTF8', 'root', '');
 }
 catch (Exception $e)
 {
  die('Erreur : ' . $e->getMessage());
 }
+
 ?>
  

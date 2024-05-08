@@ -35,7 +35,7 @@
         <br>
         <br>
         
-         <form   method="post">
+         
                 <fieldset class="form"> <legend><h2>Contact Us</h2></legend>
                 <div id="connectBtn">
                    <h2> Welcome to our site </h2>
@@ -43,42 +43,46 @@
                     <button onclick="showInscriptionForm()"class="btn">Subscribe</button>
                 </div>
                     <div id="inscriptionForm" style="display: none;" >
-                     <table >
+                    <form  action="subscribe.php" method="post"> 
+                        <table >
                  
                        <tr> <td><label for="login_username"style="font-size: x-large;">Username:</label></td>
-                          <td> <input type="text" id="login_username" name="login_username"class="tdstyle" required > </td></tr> 
+                          <td> <input type="text"  name="username"class="tdstyle" id='username' required > </td></tr> 
                              <tr><td><label for="name" style="font-size: x-large;">Name:</label></td>
                         <td ><input class="tdstyle" type="text"   name="name"id='name' required placeholder="name"></td></tr>
                         <tr> <td><label for="email"style="font-size: x-large;" >Email:</label></td>
-                            <td > <input class="tdstyle" type="email"  name="email" id="email" required placeholder=".....@gmail.com" ></td></tr>
+                            <td > <input class="tdstyle" type="emaSil"  name="email" id='email' required placeholder=".....@gmail.com" ></td></tr>
                         <tr ><td><label for="tel"style="font-size: x-large;">phone number:</label></td>
-                            <td ><input class="tdstyle" type="tel"   name="tel" id="tel" required placeholder=""></td></tr> 
+                            <td ><input class="tdstyle" type="tel"   name="tel" id='tel' required ></td></tr> 
                                 <tr><td><label for="Country" style="font-size: x-large;" > Country:</label></td>
-                       <td > <input class="tdstyle" type="text" name="Country" required > </td> </tr>
+                       <td > <input class="tdstyle" type="text" name="country" id='country' required > </td> </tr>
                         <tr><td><label for="password"style="font-size: x-large;">Password:</label><br></td>
-                            <td>   <input type="password" id="password" name="password" required ></td></tr>
+                            <td>   <input type="password" id='password' name="password" required ></td></tr>
                             <tr><td><label for="confirm_password"style="font-size: x-large;">Confirm Password:</label></td>
-                            <td> <input type="password" id="confirm_password" name="confirm_password" required></td></tr>
+                            <td> <input type="password" id='confirm_password' name="confirm_password" required></td></tr>
                 
-                    <tr> <td class="button1"><button type="submit" class="btn" id="submit">Submit</button>   
+                    <tr> <td class="button1"><input type="submit" class="btn" value="confirm">   
                                <button type="reset" class="btn">Reset</button> </td>    </tr>
                    
                      </table>
-                 </div>
-                     <div id="connectionForm" style="display: none;" class="form">
-                        <table>
+               </form> 
+             </div>
+             
+                 <div id="connectionForm" style="display: none;" class="form">
+                    <form  action="connect.php" method="post">
+                         <table>
                  
-                            <tr> <td><label for="login_username" style="font-size: x-large;" >Username:</label></td>
-                               <td> <input type="text" id="login_username" name="login_username" required class="tdstyle"></td></tr> 
+                            <tr> <td><label for="login_username" style="font-size: x-large;" id="username2" >Username:</label></td>
+                               <td> <input type="text" id="username" name="username1" required class="tdstyle"></td></tr> 
                              <tr><td><label for="password" >Password:</label><br></td>
-                               <td>   <input type="password" id="password" name="password" required ></td></tr>
-                               <tr> <td class="button1"><button type="submit" class="btn"id="submit">Submit</button>   
+                               <td>   <input type="password" id="password1" name="password1" required ></td></tr>
+                               <tr> <td class="button1"><input type="submit" class="btn"value="Confirm">
                                 <button type="reset" class="btn">Reset</button> </td>    </tr>
                             
-                        </table>
-                </fieldset>
-
-            </form>
+                         </table>
+                     </form>
+                 </div>
+        </fieldset>
            
       <footer id="footer"><p id="footertext">&copy; 2024 Explore Tunisia.All rights reserved. </p> </footer>
       <script src="contact.js">
