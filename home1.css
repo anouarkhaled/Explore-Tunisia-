@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(./3762474_1955516.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 700;
+    margin: 0;
+}
+.nav {
+    margin-right: 5vw;
+    padding: 0;
+    height: 12vh;
+    align-items: center;
+    
+}
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+  }
+.navbar{
+    background-color:#222;  
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;  
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: grid ;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+#footertext{
+    color: #f4f4f4;
+    text-align: center;
+}
+#footer {
+    position: absolute;
+    background-color:#222;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+
+}
+.form{
+    margin: 100px 60px;
+    padding: 50px;
+    margin:  100px;
+    background-color:rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.bb1{
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right:50% ;
+  
+}
+.b{
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.logo{
+    width: 40px;
+}
+.logo-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+.title{
+    font-size:x-large;
+    margin: 0;
+    color: #EF6331;
+}
+#myvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+.btn{
+    background: #5E5DF0;
+    border-radius: 100px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 18px;
+    border: 0;
+  }
+
+.Welcome {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    font-size: 30px;
+}
+.tdstyle{
+    width:200px;
+    height: 40px;
+    border-color:black;
+    border-radius: 7px;
+    padding: 0 10px;
+    color: black;
+    }
+
+.footer {
+    position: absolute;
+    background-color: #222;
+    text-decoration-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#footertext {
+    color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.button {
+    position:absolute;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 200px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color:  #5E5DF0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:#D23963;
+}
+#Ex{
+    color: #952681;
+}
+#plore{
+    color: #D23963;
+}
+#Tunisia{
+    color: #E94155;
+}
+

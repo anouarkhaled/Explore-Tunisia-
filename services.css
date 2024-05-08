@@ -43,14 +43,7 @@ body {
     color: #f4f4f4;
     text-align: center;
 }
-#footer {
-    position: absolute;
-    background-color:#222;
-    padding: 10px;
-    width: 100%;
-    bottom: 0;
 
-}
 
 .b{
     text-decoration: none;
@@ -119,4 +112,12 @@ li.service.active::before{
 }
 #Tunisia{
     color: #E94155;
+}
+#footer {
+    position: absolute;
+    background-color:#222;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 0;
+
 }

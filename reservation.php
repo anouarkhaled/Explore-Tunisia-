@@ -14,6 +14,7 @@
             $requete->execute(array('name' => $_POST['name'],'email' => $_POST['email'],
             'date' => $_POST['date'], 'people' => $_POST['people']));
             echo "Ajout de la nouvelle entrée est terminée avec succès 2";
+            header("location:confirmreserve.html");
             
         }
         catch (Exception $e)

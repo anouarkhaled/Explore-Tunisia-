@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home1.css">
+    <title>Guide</title>
+    </head>
+<body> 
+  <div class="navbar">
+    <div class="logo-title"> 
+        <div>
+            <img src="images/guide-book_11589660 (1).png" alt=""  class="logo">
+        </div>
+        <div >
+            <p class="title"><span id="Ex">Exp</span><span id="plore">lore </span><span id="Tunisia">Tunisia</span> </p>    
+        </div>
+    
+    </div>
+    <div class="nav">
+            <a class="b" href="index.html"><div class="bb1" >Home</div></a>
+    
+    </div>
+</div> 
+<video autoplay muted loop id="myvideo">
+    <source src="Discover Tunisia.mp4" type="video/mp4">
+  </video></div>
+<div class="Welcome">
+        <p>Welcome to  Tunisia</p> 
+        <p > Discover the beauty and culture of Tunisia with our comprehensive travel guide.<br> From ancient ruins to modern cities, we have everything you need to plan your perfect<br> Tunisian adventure.</p>
+
+
+        <h3>Ready to start your journey? Explore our guide and plan your Tunisian getaway today! </h3></div>
+     <div class="form">  <div id="connectionForm">
+            <form action="signin.php" method="POST">
+                <h1>Sign in</h1>
+                <input type="email" class="tdstyle"  name="email"  id="email" required placeholder="email">
+                <input type="password" class="tdstyle"  name="password" id="password" required placeholder="password">
+                <input type="submit" value="signin" class="btn">
+                <button onclick="showInscriptionForm()"class="btn">signup</button>
+            </form>
+        </div>
+        <div  id="inscriptionForm"  style="display: none;" >
+            <form action="signup.php" method="POST">
+                <h1>Sign up</h1>
+                <input type="text" class="tdstyle" placeholder="Username" name="username" id="name" required><br>
+                <input type="email" class="tdstyle" placeholder="Email" name="email" required><br>
+                <input type="password" class="tdstyle" placeholder="Password" name="password" id="password"><br>
+                <input type="password"class="tdstyle"  placeholder="Confirm Password" name="confirm_password" id="password" required><br>
+                <input type="submit"value="signup" class="btn">
+            </form>
+        </div>
+        <script lang="javascript">
+
+function showInscriptionForm() {
+    document.getElementById("connectionForm").style.display = "none";
+    document.getElementById("inscriptionForm").style.display = "block";
+}
+        </script>
+    </div>
+         <footer class="footer"><p id="footertext">&copy; 2024 Explore Tunisia.All rights reserved.</p></footer>
+        
+</body>
+</html>
